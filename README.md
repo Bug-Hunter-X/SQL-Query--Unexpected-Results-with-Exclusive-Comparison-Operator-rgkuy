@@ -1,0 +1,1 @@
+This repository contains a simple SQL query that demonstrates a potential issue with using the `>` operator exclusively in the `WHERE` clause.  The bug arises because the query only considers salaries strictly greater than a given value, excluding those that are exactly equal to it.  The solution demonstrates how to include employees with salaries equal to the specified value.
